@@ -5,6 +5,7 @@
 <div align=center><img src="Figure/framework.png" width="400" /></div>
 
 ## Experiments
+### Blobs
 * Dataset is preserved in gmm_9blobs.pkl. <br />
 * Training 
 Blobs-GAN-Disc5.ipynb describes the training step of Forest-GAN, whose variable of **num_disc** represents the number of discrminator in forst.<br />

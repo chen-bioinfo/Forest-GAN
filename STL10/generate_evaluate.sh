@@ -32,5 +32,5 @@ CUDA_VISIBLE_DEVICES="1" python  generate_evaluate.py \
 --start_epoch 0 \
 --log_dir autogan_cifar10_a_2023_11_05_15_55_06 \
 --load_path autogan_cifar10_a_2023_11_05_15_55_06 \
---real_images_path  data/train_CIFAR10.npy  \
+--real_images_path  data/train_STL10.npy  \
 --inception_path  Inception_Net
