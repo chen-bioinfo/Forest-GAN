@@ -5,3 +5,21 @@
 <div align=center><img src="Figure/framework.png" width="400" /></div>
 
 ## Experiments
+* Dataset is preserved in gmm_9blobs.pkl. <br />
+* Training 
+Blobs-GAN-Disc5.ipynb describes the training step of Forest-GAN, whose variable of **num_disc** represents the number of discrminator in forst.<br />
+
+*Evaluation
+We employ two metric of **precision** and **recall** to measure the generative quality and diversity of Forest-GAN. 
+There are two key variable in the calculation of Precision and Recall, 
+**lambd** and **topk**.
+* topk: the K-nearest neighbor sample. We define the distance d_g between each point and its K-nearest neighbor sample.
+* lambd: the density constraint.
+
+
+### STL10
+
+
+### LUSN-CAT
+
+
