@@ -11,7 +11,7 @@ CUDA_VISIBLE_DEVICES="2,3" python -m torch.distributed.launch --nproc_per_node 2
 --dis_model autogan_cifar10_a \
 --latent_dim 128 \
 --gf_dim 256 \
---df_dim 80 \
+--df_dim 128 \
 --g_spectral_norm False \
 --d_spectral_norm True \
 --g_lr 0.00025 \
