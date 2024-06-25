@@ -9,7 +9,7 @@
 * Training 
 Blobs-GAN-Disc5.ipynb describes the training step of Forest-GAN, whose variable of **num_disc** represents the number of discrminator in forst.<br />
 
-*Evaluation
+* Evaluation
 We employ two metric of **precision** and **recall** to measure the generative quality and diversity of Forest-GAN. 
 There are two key variable in the calculation of Precision and Recall, 
 **lambd** and **topk**.
@@ -19,7 +19,11 @@ There are two key variable in the calculation of Precision and Recall,
 
 ### STL10
 
+* the soruce code from [AutoGAN](https://github.com/VITA-Group/AutoGAN)
+* training step
+```Python
+sh autogan_STL10_a_num_disc_FOrest_GAN.sh
+```
 
-### LUSN-CAT
 
 
