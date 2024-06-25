@@ -43,15 +43,10 @@ sh generate_evaluate.sh
 
 Forest-GAN is set in four different parameter settings. The parameter in generator remain constant, whereas the key variable of **df_dim** adjusts the number of parameters for the discriminator forest. 
 
-|          |  k=1 |  k=2 |  k=5 | k=10 |
+|  df_dim  |  k=1 |  k=2 |  k=5 | k=10 |
 |:--------:|:----:|:----:|:----:|:----:|
 | Para=1M  |  128 |  92  | 58   |  42  |
 | Para=2M  |  186 |  128 | 80   |  58  |
 | Para=5M  |  288 |  200 | 128  |  90  |
 | Para=10M |  400 |  288 | 178  |  128 |
-
-
-
-
-
 
