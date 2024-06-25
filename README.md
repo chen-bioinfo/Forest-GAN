@@ -19,11 +19,15 @@ There are two key variable in the calculation of Precision and Recall,
 
 ### STL10
 
-* the soruce code from [AutoGAN](https://github.com/VITA-Group/AutoGAN)
-* training step
+* the soruce code from [AutoGAN](https://github.com/VITA-Group/AutoGAN). Thus, the environment can be seen in **requirement.txt**.
+* Training step. The hyper-parameters are set in the file.
 ```Python
 sh autogan_STL10_a_num_disc_FOrest_GAN.sh
 ```
 
+* Evaluate step. We employ four metric to evaluate performance of Forest-GAN in images of STL10, FID, IS, precision and recall. The following command can generate the metric, but we have to set the value of the variable of __num_disc __, __log_dir__, __load_path__ and __real_images_path  __. 
+```Python
+sh generate_evaluate.sh
+```
 
 
