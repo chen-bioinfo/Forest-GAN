@@ -6,6 +6,14 @@
 
 ## Experiments
 ### Blobs
+* Environment
+Tensorflow==2.3
+```Bash
+conda crate -n tensorflow2.3
+conda activate tensorflow2.3
+pip install tensorflow-gpu==2.3.0
+```
+
 * Dataset is preserved in gmm_9blobs.pkl. <br />
 * Training 
 Blobs-GAN-Disc5.ipynb describes the training step of Forest-GAN, whose variable of **num_disc** represents the number of discrminator in forst.<br />
